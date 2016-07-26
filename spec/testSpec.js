@@ -3,8 +3,16 @@
  */
 const main = require('../main/main');
 
-describe('main',()=>{
-    it('main',()=>{
-        expect(main.main()).toBe('hello');
+describe('printNumber', () => {
+
+    it('should print answer', () => {
+
+        const inputs = '1423';
+        const answer = '1324'
+
+
+        const expectText = '2A2B';
+
+        expect(main(answer,inputs)).toEqual(expectText);
     });
 });

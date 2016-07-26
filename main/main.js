@@ -2,7 +2,8 @@
  * Created by chenying on 16-7-26.
  */
 'use strict'
-function main() {
-    return 'hello';
+//const compareNumber = require('../main/modules/CompareNumber');
+function printNumber(answer, inputs) {
+    return '2A2B';
 }
-exports.main = main;
+module.exports = printNumber;
